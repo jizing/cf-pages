@@ -9,7 +9,7 @@ let userID = 'f36e3da8-eb59-45d9-bb48-11f5d36d584d';
 const bestCFIP = "icook.tw"
 
 // 用于 CF 网站的代理 IP
-const proxyIPs = ['ts.hpc.tw', 'cdn.xn--b6gac.eu.org', 'bestproxy.onecf.eu.org', 'cdn-all.xn--b6gac.eu.org'];
+const proxyIPs = ["ts.hpc.tw"]; // const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
